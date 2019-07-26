@@ -1,0 +1,46 @@
+[
+    {
+        "title": "首页",
+        "icon": "home",
+        "path": "/admin/home"
+    },
+    {
+        "title": "UI组件",
+        "icon": "shopping",
+        "path": "/admin/ui",
+        "children": [
+            {
+                "title": "富文本编辑",
+                "icon": "shopping",
+                "path": "/admin/wysiwyg"
+            }
+        ]
+    },
+    {
+        "title": "用户管理",
+        "icon": "team",
+        "path": "/admin/user"
+    },
+    {
+        "title": "角色管理",
+        "icon": "user",
+        "path": "/admin/role"
+    },
+    {
+        "title": "图表",
+        "icon": "qrcode",
+        "path": "/admin/pieline",
+        "children": [
+            {
+                "title": "echart1",
+                "icon": "home",
+                "path": "/admin/pie"
+            },
+            {
+                "title": "echart2",
+                "icon": "home",
+                "path": "/admin/line"
+            }
+        ]
+    }
+]

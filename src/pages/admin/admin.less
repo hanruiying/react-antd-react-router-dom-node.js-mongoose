@@ -1,0 +1,43 @@
+@import '../../style/mixin.less';
+.leftWrapper{
+    height: 100%;
+    background: @menu-bg;
+    .ant-layout-header{
+        background: #fff!important;
+    }
+    .leftTitle{
+        background: @menu-bg;
+        text-align: center;
+        height: 40px;
+        overflow: hidden;
+        color: #fff;
+        margin: 20px;
+    }
+    .leftTitle i{
+        font-size: 50px;
+        color: #1296db;
+        padding-left: 10px;
+    }
+    .leftTitle img{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    aside{
+        overflow: hidden;
+        background: @menu-bg;
+    }
+    .ant-layout-content{
+        overflow-y: scroll;
+    }
+    .ant-layout-footer{
+        text-align: center;
+        height: 48px;
+        line-height: 48px;
+        padding: 0;
+        background: #fff;
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,77 @@
+.homeWrapper{
+    padding: 20px;
+    box-sizing: border-box;
+    .ant-card{
+        margin-bottom: 20px;
+    }
+    .ant-card-body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .icon-left{
+            font-size: 30px;
+            // margin-right: 20px;
+            .icon-heart{
+                color: #f44455 !important;
+            }
+            .icon-mail{
+                color: #6cc788!important;
+            }
+            .icon-schedule{
+                color: #6887ff !important;
+            }
+            .icon-picture{
+                color: #f4516c!important;
+            }
+        }
+        .icon-text{
+            p{
+                margin-bottom: 0;
+            }
+            p:first-child{
+                font-size: 18px;
+            }
+            .icon-number{
+                color: rgba(0, 0, 0, 0.85);
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .ant-col-6{
+            width: 25%!important;
+        }        
+    }
+    @media screen and (max-width: 1000px) {
+        .ant-col-6{
+            width: 50%!important;
+        }        
+    }
+    @media screen and (max-width: 772px) {
+        .ant-col-6{
+            width: 100%!important;
+        }        
+    }
+    @media screen and (max-width: 1000px) {
+        .time-static-wrapper{
+            width: 100%!important;
+        }
+    }
+    .static-wrapper{
+        margin: 20px;
+        .timeline-wrapper{
+            background: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    }
+    .gutter-row{
+        // background: #fff;
+    }
+    .count-wrapper {
+        // background: #fff;
+        margin-bottom: 20px;
+    }
+}
