@@ -10,6 +10,12 @@
   进到server目录，运行node app.js运行后台项目
   node app.js
 ```
+### 主要依赖的插件<br>
+* axios 对axios进行了相关的请求拦截和响应拦截的处理
+* antd的UI组件库蚂蚁金服开源的UI组件框架库
+* react-router-dom
+* echarts-for-react: 基于react的echart图的封装： https://github.com/hustcc/echarts-for-react
+* screenfull：全屏插件： https://github.com/sindresorhus/screenfull.js/
 ### 下面记录一下React的一些我之前的一些学习的笔记,方便以后看吧<br>
 * 父子组件之间通讯<br>
   父组件向子组件通过props传值
@@ -33,7 +39,7 @@
 * redux库的具体用法参考：<br>
   https://blog.csdn.net/youlinaixu/article/details/90579075
 * react-router-dom的一些用法我也记录了一下:<br>
-  https://blog.csdn.net/youlinaixu/article/details/90734548
-  项目截图：
+  https://blog.csdn.net/youlinaixu/article/details/90734548<br>
+### 项目截图：
 ![image](https://github.com/hanruiying/react-antd-react-router-dom-node.js-mongoose/blob/master/screenshoot/1.gif)<br>
 ![image](https://github.com/hanruiying/react-antd-react-router-dom-node.js-mongoose/blob/master/screenshoot/2.gif)<br>
