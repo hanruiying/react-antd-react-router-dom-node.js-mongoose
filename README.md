@@ -35,3 +35,5 @@
 * react-router-dom的一些用法我也记录了一下:<br>
   https://blog.csdn.net/youlinaixu/article/details/90734548
   项目截图：
+![image](https://github.com/hanruiying/react-antd-react-router-dom-node.js-mongoose/blob/master/screenshoot/1.gif)<br>
+![image](https://github.com/hanruiying/react-antd-react-router-dom-node.js-mongoose/blob/master/screenshoot/2.gif)<br>
