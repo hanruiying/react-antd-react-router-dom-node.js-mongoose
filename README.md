@@ -1,4 +1,4 @@
-## 自己最近学习了React和node.js以及mongoose所以写了简单的后台管理系统以及前后台接口来巩固最近学习的知识<br>
+## 使用React和node.js以及mongoose所以写了简单的后台管理系统以及前后台接口来巩固最近学习的知识<br>
 ### React 起源于 Facebook 的内部项目，用于构建用户界面的 JavaScript 库<br>
 主要通过搭建的react脚手架进行的开发，前端的主要技术是react+antd+es6/es7+react-router-dom+redux+axios，后台主要用到的是nodejs+express+mongoose，后台只写了部分接口
 ```
